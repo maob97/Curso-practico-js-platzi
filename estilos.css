@@ -1,8 +1,10 @@
 
 
-header{
+header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
     text-align: center;
-    border: 5px, solid, springgreen;
+    border: 5px solid springgreen;
+    border-radius: 45px;
+    background-color: springgreen;
 };
