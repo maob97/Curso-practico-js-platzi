@@ -1,10 +1,28 @@
+*{
+    box-sizing: border-box;
+}
 
-
-header {
+header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
     text-align: center;
     border: 5px solid springgreen;
     border-radius: 45px;
     background-color: springgreen;
-};
+}
+
+/* BOX DEL CUADRADO */
+
+#cuadrado{
+    font-size: 15px;
+    border: 3px solid black;
+    box-shadow: black;
+    float: left;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 10px 10px 10px 10px;
+}
+
+#cuadrado input[type="number"] {
+    size: 200px;
+}
