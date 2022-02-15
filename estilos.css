@@ -2,27 +2,97 @@
     box-sizing: border-box;
 }
 
+body {
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(70,251,2,1) 49%, rgba(0,212,255,1) 100%); */
+    background-color:blueviolet;
+}
+
 header{
+    background-color:navy;
+    color: rgb(215, 181, 247); 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
     text-align: center;
-    border: 5px solid springgreen;
+    border: 5px solid cadetblue;
     border-radius: 45px;
-    background-color: springgreen;
+    background-color:navy;
 }
 
+input{
+    border-radius: 5px;
+}
 /* BOX DEL CUADRADO */
 
 #cuadrado{
     font-size: 15px;
+    text-align: center;
     border: 3px solid black;
     box-shadow: black;
     float: left;
     border-radius: 30px;
     padding: 15px;
-    margin: 10px 10px 10px 10px;
+    margin: 80px 10px 10px 100px;
+    background-color:darkcyan;
+    width: 35%;
+    height: auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.74);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.74);
+
 }
 
-#cuadrado input[type="number"] {
-    size: 200px;
+/* ------------------------------------------------------------------ */
+
+/*BOX DEL TRIANGULO */
+#triangulo{
+    font-size: 15px;
+    text-align: center;
+    border: 3px solid black;
+    box-shadow: black;
+    float: right;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 50px 100px 10px 10px;
+    background-color:darkcyan;
+    width: 35%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.74);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.74);
+}
+
+
+#circulo {
+    font-size: 15px;
+    text-align: center;
+    border: 3px solid black;
+    box-shadow: black;
+    float: left;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 65px 10px 10px 100px;
+    background-color:darkcyan;
+    width: 35%;
+    height: auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.74);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.74);
+}
+
+#trianguloIso{
+    font-size: 15px;
+    text-align: center;
+    border: 3px solid black;
+    box-shadow: black;
+    float: right;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 50px 100px 10px 10px;
+    background-color:darkcyan;
+    width: 35%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.74);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.74);
+}
+#trianguloIso abbr {
+    text-decoration: none;
 }
