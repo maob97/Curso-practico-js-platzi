@@ -1,4 +1,3 @@
-'use strict'
 
 // const precioInicial = 120;
 // const descuento = 18;

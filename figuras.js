@@ -1,4 +1,3 @@
-'use strict'
 
 //*Codigo del CUADRADO
 console.group("CUADRADO");

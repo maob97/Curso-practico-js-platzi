@@ -1,4 +1,3 @@
-'use strict'
 
 const lista1 = [
     100,
